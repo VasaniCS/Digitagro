@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WaterMonitor", "Sketch1\Sketch1.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rtcmaster-2.3.4", "Libraries\Rtcmaster\2.3.4\Rtcmaster\Rtcmaster-2.3.4.vcxitems", "{E33759F0-BCD6-45BF-BA5C-F8945C7A1DB8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPIFFS-1.0", "Libraries\SPIFFS\1.0\SPIFFS\SPIFFS-1.0.vcxitems", "{06FD0973-51CD-4AFD-93B6-8A10ACB263B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wire-1.0.1", "Libraries\Wire\1.0.1\Wire\Wire-1.0.1.vcxitems", "{F13E3998-1A68-4077-8F08-586910460F86}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PubSubClient-2.7", "Libraries\PubSubClient\2.7\PubSubClient\PubSubClient-2.7.vcxitems", "{7AC058AA-72DF-440D-B3D5-EF84C6533D82}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SPI-1.0", "Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems", "{7FC3D7D8-A446-415A-93C1-FE8628E4E194}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FS-1.0", "Libraries\FS\1.0\FS\FS-1.0.vcxitems", "{AC9CFCC6-18E0-481A-8F0B-16696EF54E5F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SD-1.0.5", "Libraries\SD\1.0.5\SD\SD-1.0.5.vcxitems", "{D68CC863-E2B6-464C-9B61-D48860134604}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Libraries\SPIFFS\1.0\SPIFFS\SPIFFS-1.0.vcxitems*{06fd0973-51cd-4afd-93b6-8a10acb263b1}*SharedItemsImports = 9
+		Libraries\PubSubClient\2.7\PubSubClient\PubSubClient-2.7.vcxitems*{7ac058aa-72df-440d-b3d5-ef84c6533d82}*SharedItemsImports = 9
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{7fc3d7d8-a446-415a-93c1-fe8628e4e194}*SharedItemsImports = 9
+		Libraries\FS\1.0\FS\FS-1.0.vcxitems*{ac9cfcc6-18e0-481a-8f0b-16696ef54e5f}*SharedItemsImports = 9
+		Libraries\FS\1.0\FS\FS-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\PubSubClient\2.7\PubSubClient\PubSubClient-2.7.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Rtcmaster\2.3.4\Rtcmaster\Rtcmaster-2.3.4.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SD\1.0.5\SD\SD-1.0.5.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SPIFFS\1.0\SPIFFS\SPIFFS-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SPI\1.0\SPI\SPI-1.0.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\Wire\1.0.1\Wire\Wire-1.0.1.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		Libraries\SD\1.0.5\SD\SD-1.0.5.vcxitems*{d68cc863-e2b6-464c-9b61-d48860134604}*SharedItemsImports = 9
+		Libraries\Rtcmaster\2.3.4\Rtcmaster\Rtcmaster-2.3.4.vcxitems*{e33759f0-bcd6-45bf-ba5c-f8945c7a1db8}*SharedItemsImports = 9
+		Libraries\Wire\1.0.1\Wire\Wire-1.0.1.vcxitems*{f13e3998-1a68-4077-8f08-586910460f86}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41B31551-3B7C-4ADA-A4BC-5F5BD7558891}
+	EndGlobalSection
+EndGlobal

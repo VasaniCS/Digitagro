@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+  <PropertyGroup Label="Globals" >
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{e33759f0-bcd6-45bf-ba5c-f8945c7a1db8}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\RtcDateTime.cpp" />
+<ClCompile Include="$(MSBuildThisFileDirectory)src\RtcUtility.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\EepromAT24C32.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\RtcDateTime.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\RtcDS1302.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\RtcDS1307.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\RtcDS3231.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\RtcDS3234.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\RtcTemperature.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\RtcUtility.h" />
+<ClInclude Include="$(MSBuildThisFileDirectory)src\ThreeWire.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
+<Text Include="$(MSBuildThisFileDirectory)library.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)COPYING" />
+<None Include="$(MSBuildThisFileDirectory)library.json" />
+<None Include="$(MSBuildThisFileDirectory)README.md" />
+<None Include="$(MSBuildThisFileDirectory)SUPPORT.md" />
+  </ItemGroup>
+</Project>
